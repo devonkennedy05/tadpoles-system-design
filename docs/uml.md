@@ -1,3 +1,6 @@
+# UML Diagram
+
+```mermaid
 classDiagram
     class Car {
         - vin: String
@@ -29,3 +32,4 @@ classDiagram
     Sale "0" --* "*" Inventory: sales
     Car --* "1" Sale: car
     Employee --* "1" Sale: emp
+```
